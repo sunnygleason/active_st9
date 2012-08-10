@@ -1,0 +1,11 @@
+*.un~
+*.swp
+*.swo
+.DS_Store
+Gemfile.lock
+*.gem
+.bundle
+pkg/*
+dump.json
+st9
+bin
