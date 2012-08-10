@@ -1,0 +1,8 @@
+host: localhost
+port: 7331
+version: 0.10.0
+pid_file: st9.pid
+db_file: st9.db
+allow_nuke: true
+http_client: net_http
+db_type: h2

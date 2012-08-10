@@ -1,0 +1,47 @@
+module ActiveRest
+  require 'silly_putty'
+  require 'logger'
+  require 'active_support/json'
+
+  require 'active_model'
+  require 'active_model/validations'
+  require 'active_model/naming'
+  require 'active_model/conversion'
+  require 'active_model/callbacks'
+
+  require 'active_rest/timestamps'
+  require 'active_rest/callbacks'
+  require 'active_rest/active_rest_rack_middleware' if defined?(Rails) # must appear before connection
+  require 'active_rest/connection'
+  require 'active_rest/config'
+  require 'active_rest/attributes'
+  require 'active_rest/persistence'
+  require 'active_rest/query'
+  require 'active_rest/relations/has_one'
+  require 'active_rest/relations/has_many'
+  require 'active_rest/relations'
+  require 'active_rest/serializer'
+  require 'active_rest/index'
+  require 'active_rest/indexes'
+  require 'active_rest/counter'
+  require 'active_rest/counters'
+  require 'active_rest/fulltext'
+  require 'active_rest/fulltexts'
+  require 'active_rest/enum'
+  require 'active_rest/schema'
+  require 'active_rest/static_attributes'
+  require 'active_rest/inheritable_attributes'
+  require 'active_rest/json_serializer'
+  require 'active_rest/utility'
+  require 'active_rest/reloadable'
+  require 'active_rest/validations'
+  require 'active_rest/base'
+  require 'active_rest/enumerable_counters'
+  require 'active_rest/enumerable_results'
+  require 'active_rest/errors'
+  require 'active_rest/quarantinable'
+
+  require 'active_rest/active_rest_orm_adapter'
+
+  require 'active_rest/railtie' if defined?(Rails)
+end
