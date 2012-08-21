@@ -13,7 +13,7 @@ A simple ActiveRecord-looking ORM for Rails which interfaces with [ST9](http://g
 Include ActiveRest in your Gemfile
 
 ```ruby
-gem 'active_rest', git: 'https://github.com/sunnygleason/active_rest.git'
+gem 'active_rest', git: 'https://github.com/sunnygleason/active_st9.git'
 ```
 
 and run `bundle install`.
